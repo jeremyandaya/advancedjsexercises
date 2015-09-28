@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div>
+</div>
+
+<script type="text/javascript">
+
+
+
+// maxOfThree
+	function maxOfThree(apple, banana, carrot){
+		
+		if (apple>banana && apple > carrot){
+			return apple;
+		}
+		if (banana > apple && banana > carrot){
+			return banana;
+		}
+		if (carrot > apple && carrot > banana){
+			return carrot;
+		}
+
+	}
+
+	console.log(maxOfThree(1,2,3))
+	//expets 3
+
+	console.log(maxOfThree(15,7,6))
+	//expects 15 (first)
+
+	console.log(maxOfThree(1,6,5))
+	//expects 6
+
+	//end maxOfThree
+
+</script>
+</body>
+</html>
